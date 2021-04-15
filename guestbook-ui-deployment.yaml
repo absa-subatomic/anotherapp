@@ -14,7 +14,6 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: artifacts.bcp.absa.co.za/gcr.io/heptio-images/ks-guestbook-demo:0.2
-        name: guestbook-ui
+      - image: harbor-sdc.caas.absa.co.za/rancher-demo/rancher-demo:v0.1.1
         ports:
         - containerPort: 80
